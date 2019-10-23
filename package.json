@@ -1,0 +1,75 @@
+{
+  "name": "react-ui-kit",
+  "version": "0.0.1",
+  "description": "UI toolkit",
+  "main": "dist/index.js",
+  "style": "dist/styles.css",
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c --watch",
+    "build:watch": "npm run build --watch",
+    "storybook": "start-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyndonn03/react-ui-kit.git"
+  },
+  "author": "lyndonn03",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lyndonn03/react-ui-kit/issues"
+  },
+  "homepage": "https://github.com/lyndonn03/react-ui-kit#readme",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-proptypes": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-1": "^7.0.0",
+    "@storybook/react": "^5.1.11",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.6",
+    "eslint": "^6.2.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "install": "^0.13.0",
+    "jest": "^24.9.0",
+    "node-sass": "^4.12.0",
+    "npm": "^6.11.1",
+    "postcss-modules": "^1.4.1",
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-proptypes": "^1.0.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-terser": "^5.1.1",
+    "sass-loader": "^7.3.1"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
