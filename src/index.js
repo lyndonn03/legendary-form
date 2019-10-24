@@ -1,12 +1,3 @@
-import React from "react";
-import "./index.scss";
+import useForm from "./components/FormContext";
 
-const InitCommit = props => {
-  return (
-    <div className="nice">
-      <div>Nice Sample Google</div>
-    </div>
-  );
-};
-
-export { InitCommit };
+export { useForm };
