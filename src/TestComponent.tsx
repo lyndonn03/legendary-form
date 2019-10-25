@@ -1,8 +1,8 @@
 import * as React from "react";
 import { useState } from "react";
 
-interface Props {
-  data: number;
+export interface Props {
+  data?: number;
 }
 
 const Count: React.FC<Props> = () => {
