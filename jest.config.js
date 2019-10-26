@@ -10,7 +10,7 @@ module.exports = {
   setupFiles: ["<rootDir>/setupTests.ts"],
   collectCoverage: true,
   collectCoverageFrom: [
-    "src/*.{ts,tsx}",
+    "src/**/*.{ts,tsx}",
     "!app/react/__tests__/api/api-test-helpers.ts"
   ]
 };
